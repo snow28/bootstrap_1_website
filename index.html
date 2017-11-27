@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design and Develop</title>
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slider/slider-main.js"></script>
+    <script src="js/slider/settings.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/photo-slider.css">
+</head>
+<body class="ui-widget-content">
+    <div class="container">
+        <div class="row header">
+            <div class="col-sm-12 ">
+                <img class="logo" src="css/images/logo.png">
+                <nav class="mainNav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Process</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--<div class="col-sm-8 header_intermediate_block">s</div>-->
+            <div class="col-sm-12 header__main_block">
+                <div>
+                    <div class="h1">We Design and Develop</div>
+                    <div class="headerText">
+                        <p>We are a new design studio based in USA. We have over  20 years of combined experience, and know a thing or two about designing websites and mobiles apps.</p>
+                    </div>
+                    <div class="contact_us_button">Contact us</div>
+                </div>
+            </div>
+        </div>
+        <div class="row about_us">
+            <div class="col-sm-12">
+                <div class="about_us_block">
+                    <div class="h2 about_us_block_h2">
+                        <p>About us</p>
+                    </div>
+                    <div class="about_us_text">
+                        <p>Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all. </p>
+                    </div>
+                    <div class="about_us_block_signature">
+                        <img src="css/images/signature.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row profession_skills">
+            <div class="profession_skills_left col-sm-6">
+                <div class="h2">
+                    Prefessional Skills
+                </div>
+                <div class="profession_skill_sliders">
+                    <div class="slider-1">
+                        <div class="slider_label">
+                            <label class="h3">UI/UX DESIGN <span class="percantage">75%</span></label>
+                        </div>
+                        <div class="slider custom-handle ui-slider-handle slider-1-js"></div>
+                    </div>
+                    <div class="slider-2">
+                        <div class="slider_label">
+                            <label class="h3">WEB DEVELOPMENT<span class="percantage">90%</span></label>
+                        </div>
+                        <div class="slider custom-handle slider-2-js"></div>
+                    </div>
+                    <div class="slider-3">
+                        <div class="slider_label">
+                            <label class="h3">MARKETING<span class="percantage">65%</span></label>
+                        </div>
+                        <div class="slider custom-handle slider-3-js"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="profession_skills_right col-sm-6"></div>
+        </div>
+        <div class="row statistics">
+            <div class="statistics_bag statistics_block col-sm-3">
+                <img src="css/images/statistic-logos/bag.png">
+                <p><span>548</br></span>Projects Completer</p>
+            </div>
+            <div class="statistics_clock statistics_block col-sm-3">
+                <img src="css/images/statistic-logos/clock.png">
+                <p><span>1465</br></span>Working Hours</p>
+            </div>
+            <div class="statistics_star statistics_block col-sm-3">
+                <img src="css/images/statistic-logos/star.png">
+                <p><span>612</br></span>Positive Feedbacks</p>
+            </div>
+            <div class="statistics_heart statistics_block col-sm-3">
+                <img src="css/images/statistic-logos/heart.png">
+                <p><span>735</br></span>Happy clients</p>
+            </div>
+        </div>
+        <div class="row photos">
+            <div class="photo-1 col-sm-3 all-photo"></div>
+            <div class="photo-2 col-sm-3 all-photo"></div>
+            <div class="photo-3 col-sm-3 all-photo"></div>
+            <div class="photo-4 col-sm-3 all-photo"></div>
+            <div class="photo-5 col-sm-3 all-photo"></div>
+            <div class="photo-6 col-sm-3 all-photo"></div>
+            <div class="photo-7 col-sm-3 all-photo"></div>
+            <div class="photo-8 col-sm-3 all-photo"></div>
+        </div>
+    </div>
+    <div class="row load-more col-sm-12"><p>LOAD MORE WORKS</p></div>
+    <div class="row photo-slider">
+        <div class="col-sm-12 photo-slider-block">
+            <!--All CSS in the separate files!-->
+            <div id="jssor_1" class="photo-slider-body">
+                <div data-u="loading" class="jssorl-009-spin photo-slider-loading">
+                    <img class="photo-slider-loading-img" src="css/images/slider-photos/spin.svg" />
+                </div>
+                <div data-u="slides" class="photo-slider-slides">
+
+                    <div>
+                        <img data-u="image" src="css/images/slider-photos/1.png" />
+                    </div>
+                    <div>
+                        <img data-u="image" src="css/images/slider-photos/1.png" />
+                    </div>
+                    <div>
+                        <img data-u="image" src="css/images/slider-photos/1.png" />
+                    </div>
+
+                </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb032" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                    <div data-u="prototype" class="i" >
+                        <svg viewbox="0 0 16000 16000" class="photo-slider-viewbox">
+                            <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">jssor_1_slider_init();</script>
+        </div>
+    </div>
+    <div class="row clients">
+        <div class="col-sm-12 clients-block">
+            <div class="clients-logo logo-1"></div>
+            <div class="clients-logo logo-2"></div>
+            <div class="clients-logo logo-3"></div>
+            <div class="clients-logo logo-4"></div>
+            <div class="clients-logo logo-5"></div>
+        </div>
+    </div>
+
+
+
+    <div class="row send-email">
+        <div class="col-sm-6 send-email-block">
+            <div class="h2">
+                Need a Project?
+            </div>
+            <div>
+                <p class="nunito-font send-email-description">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+            </div>
+            <div class="form-group">
+                <div class="input-flex ">
+                    <input type="text" class="form-control nunito-font send-email-input-inline send-email-name" placeholder="Your Name" >
+                    <input type="text" class="form-control nunito-font send-email-input-inline send-email-email" placeholder="Your Email">
+                </div>
+                <input type="text" class="form-control nunito-font send-email-input send-email-title" placeholder="Your Title">
+                <input type="text" class="form-control nunito-font send-email-input send-email-comment" placeholder="Your Comment">
+            </div>
+            <div class="contact_us_button send-email-button send-email-button-modificator">Send Message</div>
+        </div>
+    </div>
+
+
+
+    <footer class="row footer">
+        <div class="col-sm-4 footer-label">
+            <div class="footer-label-content">
+                <div class="h4">
+                    Piroll Design, Inc.
+                </div>
+                <p class="footer-font">© 2017 Piroll. All rights reserved. Designed by robirurk.</p>
+            </div>
+        </div>
+        <div class="col-sm-3 footer-contacts footer-font">
+            <div class="footer-contacts-content">
+                <p>snow28@ukr.net</p>
+                <p>+48 791 671 090</p>
+            </div>
+        </div>
+        <div class="col-sm-1 footer-font footer-column">
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Carrer</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-1 footer-font footer-column">
+            <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Legals</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-3 footer-font footer-column">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Dribble</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
